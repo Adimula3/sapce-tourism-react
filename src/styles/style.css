@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+
+.navbar {
+    padding-top: 58px;
+    margin-right: 32px;
+}
+.navbar-brand {
+    margin-right: 50px;
+}
+.navbar-nav {
+    position: absolute;
+    width: 830px;
+    height: 96px;
+    left: 610px;
+    top: 40px;
+    background: rgba(255, 255, 255, 0.04);
+}
+.nav-item {
+    font-size: 16px;
+    font-weight: 400;
+}
+.nav-item b {
+    margin-right: 8px;
+}
+.navbar .active {
+    margin-left: 90px;
+}
+
+.nav-item .nav-link {
+    color: white;
+    font-family: Barlow Condensed;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-left: 35px;
+    text-transform: uppercase;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+}
+.down-active {
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.down-active::before{
+    content: "";
+    width: 70px;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background: #FFFFFF;;
+}
+
+hr{
+    position: relative;
+    height: 1px;
+    background-color: #FFFFFF;;
+    border: none;
+    width: 473px;
+    right: 710px;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+}
+
+.home {
+    background-image: url("../assets/home/background-home-desktop.jpg");
+    background-size: cover;
+    height: 900px;
+    width: 1440px;
+    font-size:50px;
+    background-repeat:no-repeat;
+}
+.home-content {
+    margin-left: 165px;
+    margin-top: 245px;
+}
+.home h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 4.5px;
+    color: #D0D6F9;
+    font-family: 'Barlow Condensed';
+}
+.home h2 {
+    margin-top: 20px;
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 172px;
+    color: #FFFFFF;
+}
+.home p {
+    margin-top: 40px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #D0D6F9;;
+}
+.oval {
+    background: #FFFFFF;
+    width: 274px;
+    height: 274px;
+    border-radius: 50%;
+    margin-left: 190px;
+    margin-top: 120px;
+}
+.oval p {
+    position: absolute;
+    color: black;
+    top: 570px;
+    right: 220px;
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    letter-spacing: 2px;
+}
+.destinationA {
+    background-image: url("../assets/destination/background-destination-desktop.jpg");
+    background-size: cover;
+    height: 900px;
+    width: 1440px;
+    font-size:50px;
+    background-repeat:no-repeat;
+}
+.moon-left {
+    margin-top: 85px;
+    margin-left: 90px;
+}
+.moon-left b{
+    margin-right: 5px;
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 4.725px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+}
+.moon-left h3 {
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 4.725px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.moon-left img {
+    margin-top: 80px;
+    margin-left: 70px;
+}
+.moon-right {
+    margin-top: 180px;
+    margin-left: 80px;
+}
+.moon-right .nav .nav-link {
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    text-transform: uppercase;
+    color: #D0D6F9;
+}
+.moon-right h1 {
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 115px;
+    color: #FFFFFF;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+.moon-right p {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #D0D6F9;
+    margin-left: 12px;
+}
+.moon-right hr {
+    position: relative;
+    height: 1px;
+    background: #a3a4b0;
+    border: none;
+    width: 440px;
+    left: 10px;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+    margin-top: 60px;
+}
+.moon-right .distance p{
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 2.3625px;
+    text-transform: uppercase;
+    margin-right: 110px;
+    margin-top: 10px;
+    color: #D0D6F9;
+}
+.moon-right .time p {
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-right: 70px;
+}
+.crewA {
+    background-image: url("../assets/crew/background-crew-desktop.jpg");
+    background-size: cover;
+    height: 900px;
+    width: 1440px;
+    font-size:50px;
+    background-repeat:no-repeat;
+}
+.crew-left {
+    margin-top: 85px;
+    margin-left: 90px;
+}
+.crew-left h3 {
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 4.725px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.crew-left b{
+    margin-right: 5px;
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 4.725px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+}
+.crew-left h4 {
+    margin-top: 160px;
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+.crew-left h1 {
+    margin-top: 12px;
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.crew-left p {
+    margin-top: 25px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #D0D6F9;
+}
+.small-circle {
+    margin-right: 80px;
+}
+.crew-left .dot {
+    height: 15px;
+    width: 15px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.17;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 120px;
+    margin-right: 20px;
+}
+.crew-right {
+    margin-top: 75px;
+    margin-left: 55px;
+}
+.technology-left {
+    margin-top: 85px;
+    margin-left: 90px;
+}
+.technology-left .big-circle {
+    margin-left: 5px;
+    margin-top: 140px;
+}
+.technology-left .dot {
+    height: 80px;
+    width: 80px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 32px;
+}
+.technology-left .res-circle {
+    height: 80px;
+    width: 80px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 32px;
+}
+.technology-left .res-circles {
+    height: 80px;
+    width: 80px;
+    background: transparent;
+    mix-blend-mode: normal;
+    border: 1px solid #525252;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 32px;
+}
+.circle-txts {
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    opacity: 1.0;
+    padding-left: 5px;
+    padding-top: 25px;
+}
+.circle-txt {
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #0B0D17;
+    padding-left: 5px;
+    padding-top: 25px;
+}
+.technology-left h3 {
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 4.725px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.technology-left b{
+    margin-right: 5px;
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 4.725px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+}
+.tech-content {
+    margin-top: 132px;
+    margin-left: 80px;
+}
+.tech-content h5{
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    color: #D0D6F9;
+}
+.tech-content h2 {
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    color: #FFFFFF;
+}
+.tech-content p {
+    margin-top: 20px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #D0D6F9;
+}
+.technology-right {
+    margin-top: 142px;
+    margin-left: 80px;
+}
+.technologyA {
+    background-image: url("../assets/technology/background-technology-desktop.jpg");
+    background-size: cover;
+    height: 900px;
+    width: 1440px;
+    font-size:50px;
+    background-repeat:no-repeat;
+}
