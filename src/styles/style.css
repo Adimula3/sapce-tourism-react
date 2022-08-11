@@ -176,6 +176,20 @@ hr{
     text-transform: uppercase;
     color: #D0D6F9;
 }
+.down-actives {
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.down-actives::before{
+    content: "";
+    width: 40px;
+    height: 3px;
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    background: #FFFFFF;;
+}
 .moon-right h1 {
     font-family: 'Bellefair';
     font-style: normal;
@@ -298,7 +312,10 @@ hr{
 .small-circle {
     margin-right: 80px;
 }
-.crew-left .dot {
+.btn {
+    margin-bottom: 100px;
+}
+.crew-left .button {
     height: 15px;
     width: 15px;
     background: #FFFFFF;
@@ -308,10 +325,31 @@ hr{
     display: inline-block;
     margin-top: 120px;
     margin-right: 20px;
+    border: none;
+}
+.crew-left .buttons {
+    height: 15px;
+    width: 15px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 120px;
+    margin-right: 20px;
+    border: none;
 }
 .crew-right {
     margin-top: 75px;
     margin-left: 55px;
+}
+.crew-right .specialist {
+    margin-top: 59px;
+    margin-left: 30px;
+}
+.crew-right .pilot {
+    margin-top: 55px;
+}
+.crew-right .engineer {
+    margin-top: 95px;
 }
 .technology-left {
     margin-top: 85px;
@@ -337,30 +375,14 @@ hr{
     display: block;
     margin-bottom: 32px;
 }
-.technology-left .res-circles {
+.my-button {
     height: 80px;
     width: 80px;
-    background: transparent;
-    mix-blend-mode: normal;
-    border: 1px solid #525252;
+    outline-style:initial;
     border-radius: 50%;
     display: block;
     margin-bottom: 32px;
-}
-.circle-txts {
-    font-family: 'Bellefair';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 37px;
-    text-align: center;
-    letter-spacing: 2px;
-    color: #FFFFFF;
-    opacity: 1.0;
-    padding-left: 5px;
-    padding-top: 25px;
-}
-.circle-txt {
+    border: none;
     font-family: 'Bellefair';
     font-style: normal;
     font-weight: 400;
@@ -369,7 +391,31 @@ hr{
     text-align: center;
     letter-spacing: 2px;
     color: #0B0D17;
-    padding-left: 5px;
+    background: #FFFFFF;
+    text-decoration: none;
+    padding-top: 25px;
+}
+.technology-left .my-buttons,.my-button:hover {
+    color: #0B0D17;
+}
+.technology-left .my-buttons {
+    height: 80px;
+    width: 80px;
+    background: transparent;
+    mix-blend-mode: normal;
+    border: 1px solid #525252;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 32px;
+    color: #FFFFFF;
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: none;
     padding-top: 25px;
 }
 .technology-left h3 {

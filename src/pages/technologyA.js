@@ -2,8 +2,11 @@ import React from "react";
 import Navbar from "../components/navbar";
 import {Col, Row} from "react-bootstrap";
 import LaunchVehicle from '../assets/technology/image-launch-vehicle-portrait.jpg';
+import SPACEPORT from '../assets/technology/image-spaceport-portrait.jpg';
+import CAPSULE from '../assets/technology/image-space-capsule-portrait.jpg';
+import {Link} from "react-router-dom";
 
-const TechnologyA = () => {
+export const TechnologyA = () => {
     return (
         <div className="technologyA">
             <Navbar />
@@ -14,15 +17,9 @@ const TechnologyA = () => {
                             <h3><b>03</b>SPACE LAUNCH 101</h3>
                             <div className="tech d-flex">
                                 <div className="big-circle">
-                                    <div className="res-circle">
-                                        <div className="circle-txt">1</div>
-                                    </div>
-                                    <div className="res-circles">
-                                        <div className="circle-txts">2</div>
-                                    </div>
-                                    <div className="res-circles">
-                                        <div className="circle-txts">3</div>
-                                    </div>
+                                    <Link to="/technologyA" className="my-button">1</Link>
+                                    <Link to="/technologyB" className="my-buttons">2</Link>
+                                    <Link to="/technologyC" className="my-buttons">3</Link>
                                 </div>
                                 <div className="tech-content">
                                     <h5>THE TERMINOLOGY…</h5>
@@ -48,4 +45,81 @@ const TechnologyA = () => {
         </div>
     );
 }
-export default TechnologyA;
+export const TechnologyB = () => {
+    return (
+        <div className="technologyA">
+            <Navbar />
+            <div className="container">
+                <Row>
+                    <Col lg={7}>
+                        <div className="technology-left ">
+                            <h3><b>03</b>SPACE LAUNCH 101</h3>
+                            <div className="tech d-flex">
+                                <div className="big-circle">
+                                    <Link to="/technologyA" className="my-buttons">1</Link>
+                                    <Link to="/technologyB" className="my-button">2</Link>
+                                    <Link to="/technologyC" className="my-buttons">3</Link>
+                                </div>
+                                <div className="tech-content">
+                                    <h5>THE TERMINOLOGY…</h5>
+                                    <h2>SPACEPORT</h2>
+                                    <p>A spaceport or cosmodrome is a site for launching (or<br/>
+                                        receiving) spacecraft, by analogy to the seaport for ships<br/>
+                                        or airport for aircraft. Based in the famous Cape <br/>
+                                        Canaveral, our spaceport is ideally situated to take <br/>
+                                        advantage of the Earth’s rotation for launch.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col lg={5}>
+                        <div className="technology-right">
+                            <img src={SPACEPORT} alt="launch-vehicle"/>
+                        </div>
+                    </Col>
+                </Row>
+            </div>
+        </div>
+    );
+}
+export const TechnologyC = () => {
+    return (
+        <div className="technologyA">
+            <Navbar />
+            <div className="container">
+                <Row>
+                    <Col lg={7}>
+                        <div className="technology-left ">
+                            <h3><b>03</b>SPACE LAUNCH 101</h3>
+                            <div className="tech d-flex">
+                                <div className="big-circle">
+                                    <Link to="/technologyA" className="my-buttons">1</Link>
+                                    <Link to="/technologyB" className="my-buttons">2</Link>
+                                    <Link to="/technologyC" className="my-button">3</Link>
+                                </div>
+                                <div className="tech-content">
+                                    <h5>THE TERMINOLOGY…</h5>
+                                    <h2>SPACE CAPSULE</h2>
+                                    <p>A space capsule is an often-crewed spacecraft that uses <br/>
+                                        a blunt-body reentry capsule to reenter the Earth's <br/>
+                                        atmosphere without wings. Our capsule is where you'll <br/>
+                                        spend your time during the flight. It includes a space <br/>
+                                        gym, cinema, and plenty of other activities to keep you <br/>
+                                        entertained.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col lg={5}>
+                        <div className="technology-right">
+                            <img src={CAPSULE} alt="launch-vehicle"/>
+                        </div>
+                    </Col>
+                </Row>
+            </div>
+        </div>
+    );
+}
+export default {TechnologyA,TechnologyB,TechnologyC};
