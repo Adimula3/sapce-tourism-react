@@ -5,10 +5,8 @@ import MARS from '../assets/destination/image-mars.webp';
 import EUROPA from '../assets/destination/image-europa.webp';
 import TITAN from '../assets/destination/image-titan.webp';
 import {Col, Row} from "react-bootstrap";
-import Data from '../data/data.json';
 import {Link} from "react-router-dom";
 export const DestinationA = () => {
-    console.log(Data);
     return (
         <div className="destinationA">
             <Navbar />
@@ -26,7 +24,7 @@ export const DestinationA = () => {
                                 <Link to="/destinationA" className="nav-link down-actives">Moon</Link>
                                 <Link to="/mars" className="nav-link">Mars</Link>
                                 <Link to="/europa" className="nav-link">Europa</Link>
-                                <Link to="/titan" className="nav-link">Titan</Link>
+                                <Link to="/titan" className="nav-link">TITAN</Link>
                             </nav>
                             <h1>MOON</h1>
                             <p>See our planet as you’ve never seen it before. A perfect<br/>
@@ -36,11 +34,19 @@ export const DestinationA = () => {
                             <hr/>
                             <div className="distance d-flex">
                                 <p>AVG. DISTANCE</p>
-                                <p>AVG. DISTANCE</p>
+                                <p>EST. TRAVEL TIME</p>
                             </div>
                             <div className="time d-flex">
                                 <p>384,400 km</p>
                                 <p>3 days</p>
+                            </div>
+                            <div className="distance2">
+                                <p className="avg">AVG. DISTANCE</p>
+                                <p className="kilometer">384,400 km</p>
+                            </div>
+                            <div className="time2">
+                                <p className="avg">EST. TRAVEL TIME</p>
+                                <p className="kilometer">3 days</p>
                             </div>
                         </div>
                     </Col>
@@ -59,7 +65,7 @@ export const DestinationA = () => {
                     <Col lg={6}>
                         <div className="moon-left">
                             <h3><b>01</b>Pick your destination</h3>
-                            <img  src={MARS} alt="moon"/>
+                            <img  src={MARS} alt="mars"/>
                         </div>
 
                     </Col>
@@ -79,11 +85,19 @@ export const DestinationA = () => {
                             <hr/>
                             <div className="distance d-flex">
                                 <p>AVG. DISTANCE</p>
-                                <p>AVG. DISTANCE</p>
+                                <p>EST. TRAVEL TIME</p>
                             </div>
                             <div className="time d-flex">
                                 <p>225 MIL. km</p>
                                 <p>9 months</p>
+                            </div>
+                            <div className="distance2">
+                                <p className="avg">AVG. DISTANCE</p>
+                                <p className="kilometer">225 MIL. km</p>
+                            </div>
+                            <div className="time2">
+                                <p className="avg">EST. TRAVEL TIME</p>
+                                <p className="kilometer">9 months</p>
                             </div>
                         </div>
                     </Col>
@@ -101,7 +115,7 @@ export const Europa = () => {
                     <Col lg={6}>
                         <div className="moon-left">
                             <h3><b>01</b>Pick your destination</h3>
-                            <img  src={EUROPA} alt="moon"/>
+                            <img  src={EUROPA} alt="europa"/>
                         </div>
 
                     </Col>
@@ -121,11 +135,19 @@ export const Europa = () => {
                             <hr/>
                             <div className="distance d-flex">
                                 <p>AVG. DISTANCE</p>
-                                <p>AVG. DISTANCE</p>
+                                <p>EST. TRAVEL TIME</p>
                             </div>
                             <div className="time d-flex">
                                 <p>628 MIL. km</p>
                                 <p>3 years</p>
+                            </div>
+                            <div className="distance2">
+                                <p className="avg">AVG. DISTANCE</p>
+                                <p className="kilometer">628 MIL. km</p>
+                            </div>
+                            <div className="time2">
+                                <p className="avg">EST. TRAVEL TIME</p>
+                                <p className="kilometer">3 years</p>
                             </div>
                         </div>
                     </Col>
@@ -143,7 +165,7 @@ export const Titan = () => {
                     <Col lg={6}>
                         <div className="moon-left">
                             <h3><b>01</b>Pick your destination</h3>
-                            <img  src={TITAN} alt="moon"/>
+                            <img  src={TITAN} alt="titan"/>
                         </div>
 
                     </Col>
@@ -155,7 +177,7 @@ export const Titan = () => {
                                 <Link to="/europa" className="nav-link">Europa</Link>
                                 <Link to="/titan" className="nav-link down-actives">Titan</Link>
                             </nav>
-                            <h1>Titan</h1>
+                            <h1>TITAN</h1>
                             <p>The only moon known to have a dense atmosphere other  <br/>
                                 than Earth, Titan is a home away from home (just a few   <br/>
                                 hundred degrees colder!). As a bonus, you get striking   <br/>
@@ -163,11 +185,19 @@ export const Titan = () => {
                             <hr/>
                             <div className="distance d-flex">
                                 <p>AVG. DISTANCE</p>
-                                <p>AVG. DISTANCE</p>
+                                <p>EST. TRAVEL TIME</p>
                             </div>
                             <div className="time d-flex">
                                 <p>1.6 BIL. km</p>
                                 <p>7 years</p>
+                            </div>
+                            <div className="distance2">
+                                <p className="avg">AVG. DISTANCE</p>
+                                <p className="kilometer">1.6 BIL. km</p>
+                            </div>
+                            <div className="time2">
+                                <p className="avg">EST. TRAVEL TIME</p>
+                                <p className="kilometer">7 years</p>
                             </div>
                         </div>
                     </Col>

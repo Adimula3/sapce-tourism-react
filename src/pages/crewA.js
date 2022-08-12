@@ -33,7 +33,15 @@ export const CrewA = () => {
                     </Col>
                     <Col lg={6}>
                         <div className="crew-right">
+                            <h3><b>02</b> Meet your crew</h3>
                             <img className="commander" src={Commander} alt="commander"/>
+                            <hr/>
+                            <div className="small-circles">
+                                <Link to="/crewA" className="buttons"/>
+                                <Link to="/crewB" className="button"/>
+                                <Link to="/crewC" className="button"/>
+                                <Link to="/crewD" className="button"/>
+                            </div>
                         </div>
                     </Col>
                 </Row>
@@ -66,7 +74,15 @@ export const CrewB = () => {
                     </Col>
                     <Col lg={6}>
                         <div className="crew-right">
+                            <h3><b>02</b> Meet your crew</h3>
                             <img className="specialist" src={SPECIALIST} alt="mission-specialist"/>
+                            <hr/>
+                            <div className="small-circles">
+                                <Link to="/crewA" className="button"/>
+                                <Link to="/crewB" className="buttons"/>
+                                <Link to="/crewC" className="button"/>
+                                <Link to="/crewD" className="button"/>
+                            </div>
                         </div>
                     </Col>
                 </Row>
@@ -100,7 +116,15 @@ export const CrewC = () => {
                     </Col>
                     <Col lg={6}>
                         <div className="crew-right">
+                            <h3><b>02</b> Meet your crew</h3>
                             <img className="pilot" src={PILOT} alt="pilot"/>
+                            <hr/>
+                            <div className="small-circles">
+                                <Link to="/crewA" className="button"/>
+                                <Link to="/crewB" className="button"/>
+                                <Link to="/crewC" className="buttons"/>
+                                <Link to="/crewD" className="button"/>
+                            </div>
                         </div>
                     </Col>
                 </Row>
@@ -133,7 +157,15 @@ export const CrewD = () => {
                     </Col>
                     <Col lg={6}>
                         <div className="crew-right">
+                            <h3><b>02</b> Meet your crew</h3>
                             <img className="engineer" src={ENGINEER} alt="engineer"/>
+                            <hr/>
+                            <div className="small-circles">
+                                <Link to="/crewA" className="button"/>
+                                <Link to="/crewB" className="button"/>
+                                <Link to="/crewC" className="button"/>
+                                <Link to="/crewD" className="buttons"/>
+                            </div>
                         </div>
                     </Col>
                 </Row>

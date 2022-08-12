@@ -3,15 +3,19 @@ import Navbar from "../components/navbar";
 import {Col, Row} from "react-bootstrap";
 import LaunchVehicle from '../assets/technology/image-launch-vehicle-portrait.jpg';
 import SPACEPORT from '../assets/technology/image-spaceport-portrait.jpg';
+import SpacePort from '../assets/technology/image-spaceport-landscape.jpg';
+import LAUNCHING from '../assets/technology/image-launch-vehicle-landscape.jpg';
+import CapSule from "../assets/technology/image-space-capsule-landscape.jpg";
 import CAPSULE from '../assets/technology/image-space-capsule-portrait.jpg';
 import {Link} from "react-router-dom";
+import MediaQuery from "react-responsive";
 
 export const TechnologyA = () => {
     return (
         <div className="technologyA">
             <Navbar />
             <div className="container">
-                <Row>
+                <Row className="row">
                     <Col lg={7}>
                         <div className="technology-left ">
                             <h3><b>03</b>SPACE LAUNCH 101</h3>
@@ -37,7 +41,13 @@ export const TechnologyA = () => {
                     </Col>
                     <Col lg={5}>
                         <div className="technology-right">
-                            <img src={LaunchVehicle} alt="launch-vehicle"/>
+                            <h3><b>03</b>SPACE LAUNCH 101</h3>
+                            <MediaQuery className="firstImageQuery" minDeviceWidth={1224} device={{ deviceWidth: 1440 }}>
+                            <img className="LaunchVehicle" src={LaunchVehicle} alt="launch-vehicle"/>
+                            </MediaQuery>
+                            <MediaQuery minDeviceWidth={400} device={{ deviceWidth: 768 }}>
+                                <img className="tablet-image" src={LAUNCHING} alt=""/>
+                            </MediaQuery>
                         </div>
                     </Col>
                 </Row>
@@ -75,7 +85,13 @@ export const TechnologyB = () => {
                     </Col>
                     <Col lg={5}>
                         <div className="technology-right">
-                            <img src={SPACEPORT} alt="launch-vehicle"/>
+                            <h3><b>03</b>SPACE LAUNCH 101</h3>
+                            <MediaQuery className="firstImageQuery" minDeviceWidth={1224} device={{ deviceWidth: 1440 }}>
+                                <img className="space-port" src={SPACEPORT} alt="launch-vehicle"/>
+                            </MediaQuery>
+                            <MediaQuery minDeviceWidth={400} device={{ deviceWidth: 768 }}>
+                                <img className="tablet-image" src={SpacePort} alt=""/>
+                            </MediaQuery>
                         </div>
                     </Col>
                 </Row>
@@ -114,7 +130,13 @@ export const TechnologyC = () => {
                     </Col>
                     <Col lg={5}>
                         <div className="technology-right">
-                            <img src={CAPSULE} alt="launch-vehicle"/>
+                            <h3><b>03</b>SPACE LAUNCH 101</h3>
+                            <MediaQuery className="firstImageQuery" minDeviceWidth={1224} device={{ deviceWidth: 1440 }}>
+                                <img className="capsule" src={CAPSULE} alt="launch-vehicle"/>
+                            </MediaQuery>
+                            <MediaQuery minDeviceWidth={400} device={{ deviceWidth: 768 }}>
+                                <img className="tablet-image" src={CapSule} alt=""/>
+                            </MediaQuery>
                         </div>
                     </Col>
                 </Row>
