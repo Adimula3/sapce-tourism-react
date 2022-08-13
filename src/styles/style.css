@@ -68,16 +68,15 @@ hr{
     z-index: 5;
 }
 .mobile-nav {
-    display: none;
+
 }
 /*.......Mobile-Nav.......*/
-/* Position and sizing of burger button */
 /* Position and sizing of burger button */
 .bm-burger-button {
     position: absolute;
     width: 24px;
     height: 21px;
-    left: 350px!important;
+    left: 320px!important;
     top: 20px;
 
 }
@@ -94,6 +93,8 @@ hr{
 
 /* Position and sizing of clickable cross button */
 .bm-cross-button {
+    top: 30px!important;
+    right: 40px!important;
     height: 24px;
     width: 24px;
 }
@@ -133,11 +134,12 @@ Note: Beware of modifying this element as it can break the animations - you shou
     line-height: 19px;
     letter-spacing: 2.7px;
     padding: 0.8em;
+    margin-top: 20px;
 }
 
 /* Individual item */
 .bm-item {
-    margin-top: 40px;
+    margin-top: 50px;
     display: inline-block;
 }
 
@@ -145,8 +147,6 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .bm-overlay {
     background: rgba(0, 0, 0, 0.3);
 }
-
-
 
 
 /*.....Home...*/
@@ -211,6 +211,9 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 }
 @media screen and (max-width: 810px) and (min-width: 768px)  {
+    .mobile-nav {
+        display: none;
+    }
     .navbar {
         padding-top: 0;
         margin-right: 0;
@@ -285,13 +288,15 @@ Note: Beware of modifying this element as it can break the animations - you shou
     }
 }
 
-@media (max-width: 428px) and (min-width: 390px) {
-    .mobile-nav {
-        display: flex;
-    }
+@media (max-width: 767px) {
+
     .navbar {
+        display: none;
         padding-top: 0!important;
         margin-right: 0!important;
+    }
+    .navbar-nav {
+        display: none;
     }
     .navbar-brand {
         display: none;
@@ -523,7 +528,8 @@ Note: Beware of modifying this element as it can break the animations - you shou
         display: none;
     }
 }
-@media (max-width: 428px) and (min-width: 390px) {
+@media (max-width: 767px) {
+
     .destinationA {
         background-image: url("../assets/destination/background-destination-mobile.jpg");
         height: 850px;
@@ -849,7 +855,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
         display: none;
     }
 }
-@media (max-width: 428px) and (min-width: 390px) {
+@media (max-width: 767px) {
     .crewA {
         background-image: url("../assets/crew/background-crew-mobile.jpg")!important;
         height: 710px!important;
@@ -1250,7 +1256,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
         font-size: 16px;
     }
 }
-@media (max-width: 428px) and (min-width: 390px) {
+@media (max-width: 767px){
     .technologyA {
         background-image: url("../assets/technology/background-technology-mobile.jpg")!important;
         height: 710px!important;
