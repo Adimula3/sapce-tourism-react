@@ -2,9 +2,11 @@ import React from "react";
 import '../styles/style.css';
 import Navbar from "../components/navbar";
 import {Col, Row} from "react-bootstrap";
+import MobileNav from "../components/mobileNav";
 const Home = () => {
     return (
         <div className="home">
+            <MobileNav />
             <Navbar />
             <div className="home-content">
                 <Row>

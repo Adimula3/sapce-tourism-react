@@ -9,10 +9,12 @@ import CapSule from "../assets/technology/image-space-capsule-landscape.jpg";
 import CAPSULE from '../assets/technology/image-space-capsule-portrait.jpg';
 import {Link} from "react-router-dom";
 import MediaQuery from "react-responsive";
+import MobileNav from "../components/mobileNav";
 
 export const TechnologyA = () => {
     return (
         <div className="technologyA">
+            <MobileNav />
             <Navbar />
             <div className="container">
                 <Row className="row">
@@ -58,6 +60,7 @@ export const TechnologyA = () => {
 export const TechnologyB = () => {
     return (
         <div className="technologyA">
+            <MobileNav />
             <Navbar />
             <div className="container">
                 <Row>
@@ -102,6 +105,7 @@ export const TechnologyB = () => {
 export const TechnologyC = () => {
     return (
         <div className="technologyA">
+            <MobileNav />
             <Navbar />
             <div className="container">
                 <Row>
@@ -137,6 +141,7 @@ export const TechnologyC = () => {
                             <MediaQuery minDeviceWidth={400} device={{ deviceWidth: 768 }}>
                                 <img className="tablet-image" src={CapSule} alt=""/>
                             </MediaQuery>
+
                         </div>
                     </Col>
                 </Row>

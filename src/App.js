@@ -3,6 +3,7 @@ import {BrowserRouter, Route, Router, Routes} from "react-router-dom";
 import {DestinationA, Europa, Mars, Titan} from "./pages/destinationA";
 import {CrewA, CrewB, CrewC, CrewD} from "./pages/crewA";
 import {TechnologyA,TechnologyB,TechnologyC} from "./pages/technologyA";
+import MobileNav from "./components/mobileNav";
 
 function App() {
   return (
@@ -22,9 +23,6 @@ function App() {
                       <Route path="crewD" element={<CrewD />} />
                       <Route path="technologyB" element={<TechnologyB />} />
                       <Route path="technologyC" element={<TechnologyC />} />
-
-
-
                   </Routes>
               </BrowserRouter>
           </div>
