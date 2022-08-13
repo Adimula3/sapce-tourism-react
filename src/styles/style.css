@@ -55,7 +55,9 @@
     top: 100%;
     background: #FFFFFF;;
 }
-
+.brand {
+    display: none;
+}
 hr{
     position: relative;
     height: 1px;
@@ -76,7 +78,7 @@ hr{
     position: absolute;
     width: 24px;
     height: 21px;
-    left: 320px!important;
+    left: 340px!important;
     top: 20px;
 
 }
@@ -119,7 +121,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .bm-menu {
     background: rgba(255, 255, 255, 0.04);
     backdrop-filter: blur(81.5485px);
-    padding: 2.5em 1.5em 0;
+    padding: 1.5em 0 0;
     font-size: 1.15em;
 }
 
@@ -133,13 +135,13 @@ Note: Beware of modifying this element as it can break the animations - you shou
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 2.7px;
-    padding: 0.8em;
-    margin-top: 20px;
+    padding: 0;
+    color: #b8b7ad;
+    text-align: left;
 }
 
 /* Individual item */
 .bm-item {
-    margin-top: 50px;
     display: inline-block;
 }
 
@@ -289,7 +291,6 @@ Note: Beware of modifying this element as it can break the animations - you shou
 }
 
 @media (max-width: 767px) {
-
     .navbar {
         display: none;
         padding-top: 0!important;
@@ -297,9 +298,29 @@ Note: Beware of modifying this element as it can break the animations - you shou
     }
     .navbar-nav {
         display: none;
+        margin-left: 0;
+    }
+    .nav {
+        margin-top: 0;
+        left: 0;
+        top: 0;
     }
     .navbar-brand {
         display: none;
+    }
+    .mobile-nav {
+        display: flex;
+    }
+    .brand {
+        display: flex;
+        width: 40px;
+        height: 40px;
+    }
+    .brand img {
+        width: 40px;
+        height: 40px;
+        margin-top: 10px;
+        margin-left: 20px;
     }
     .home {
         background-image: url("../assets/home/background-home-mobile.jpg");

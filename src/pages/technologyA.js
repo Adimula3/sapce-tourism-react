@@ -10,10 +10,12 @@ import CAPSULE from '../assets/technology/image-space-capsule-portrait.jpg';
 import {Link} from "react-router-dom";
 import MediaQuery from "react-responsive";
 import MobileNav from "../components/mobileNav";
+import Brand from "../assets/home/img.png";
 
 export const TechnologyA = () => {
     return (
         <div className="technologyA">
+            <Link className="brand" to="/"><img src={Brand} alt="brand"/></Link>
             <MobileNav />
             <Navbar />
             <div className="container">
@@ -60,6 +62,7 @@ export const TechnologyA = () => {
 export const TechnologyB = () => {
     return (
         <div className="technologyA">
+            <Link className="brand" to="/"><img src={Brand} alt="brand"/></Link>
             <MobileNav />
             <Navbar />
             <div className="container">
@@ -105,6 +108,7 @@ export const TechnologyB = () => {
 export const TechnologyC = () => {
     return (
         <div className="technologyA">
+            <Link className="brand" to="/"><img src={Brand} alt="brand"/></Link>
             <MobileNav />
             <Navbar />
             <div className="container">

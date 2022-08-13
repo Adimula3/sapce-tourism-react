@@ -7,11 +7,13 @@ import PILOT from '../assets/crew/image-victor-glover.webp';
 import ENGINEER from '../assets/crew/image-anousheh-ansari.webp';
 import {Link} from "react-router-dom";
 import MobileNav from "../components/mobileNav";
+import Brand from "../assets/home/img.png";
 
 export const CrewA = () => {
 
     return (
         <div className="crewA">
+            <Link className="brand" to="/"><img src={Brand} alt="brand"/></Link>
             <MobileNav />
             <Navbar />
             <div className="container">
@@ -54,6 +56,7 @@ export const CrewA = () => {
 export const CrewB = () => {
     return (
         <div className="crewA">
+            <Link className="brand" to="/"><img src={Brand} alt="brand"/></Link>
             <MobileNav />
             <Navbar />
             <div className="container">
@@ -96,6 +99,7 @@ export const CrewB = () => {
 export const CrewC = () => {
     return (
         <div className="crewA">
+            <Link className="brand" to="/"><img src={Brand} alt="brand"/></Link>
             <MobileNav />
             <Navbar />
             <div className="container">
@@ -139,6 +143,7 @@ export const CrewC = () => {
 export const CrewD = () => {
     return (
         <div className="crewA">
+            <Link className="brand" to="/"><img src={Brand} alt="brand"/></Link>
             <MobileNav />
             <Navbar />
             <div className="container">

@@ -7,9 +7,11 @@ import TITAN from '../assets/destination/image-titan.webp';
 import {Col, Row} from "react-bootstrap";
 import {Link} from "react-router-dom";
 import MobileNav from "../components/mobileNav";
+import Brand from "../assets/home/img.png";
 export const DestinationA = () => {
     return (
         <div className="destinationA">
+            <Link className="brand" to="/"><img src={Brand} alt="brand"/></Link>
             <MobileNav />
             <Navbar />
             <div className="container">
@@ -61,6 +63,7 @@ export const DestinationA = () => {
         export const Mars = () => {
     return (
         <div className="destinationA">
+            <Link className="brand" to="/"><img src={Brand} alt="brand"/></Link>
             <MobileNav />
             <Navbar />
             <div className="container">
@@ -112,6 +115,7 @@ export const DestinationA = () => {
 export const Europa = () => {
     return (
         <div className="destinationA">
+            <Link className="brand" to="/"><img src={Brand} alt="brand"/></Link>
             <MobileNav />
             <Navbar />
             <div className="container">
@@ -163,6 +167,7 @@ export const Europa = () => {
 export const Titan = () => {
     return (
         <div className="destinationA">
+            <Link className="brand" to="/"><img src={Brand} alt="brand"/></Link>
             <MobileNav />
             <Navbar />
             <div className="container">

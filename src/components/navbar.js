@@ -7,7 +7,7 @@ const Navbar = () => {
         <div>
             <nav id="navbar" className="navbar navbar-expand-lg d-flex">
                 <div className="container">
-                    <a className="navbar-brand" href="https://"><img src={Brand} alt="brand"/></a>
+                    <Link className="navbar-brand" to="/"><img src={Brand} alt="brand"/></Link>
                     <hr/>
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item active">

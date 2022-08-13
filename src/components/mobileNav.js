@@ -6,8 +6,8 @@ const MobileNav = () => {
     return (
         <div className="mobile-nav">
             <Menu width={ '254px' }  right pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" }>
-                <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li className="nav-item active">
+                <ul className="nav">
+                    <li className="nav-item">
                         <Link to="/"  className="nav-link"><b>00</b>Home</Link>
                     </li>
                     <li className="nav-item">

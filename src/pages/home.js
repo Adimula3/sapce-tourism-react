@@ -3,9 +3,12 @@ import '../styles/style.css';
 import Navbar from "../components/navbar";
 import {Col, Row} from "react-bootstrap";
 import MobileNav from "../components/mobileNav";
+import Brand from '../assets/home/img.png';
+import {Link} from "react-router-dom";
 const Home = () => {
     return (
         <div className="home">
+            <Link className="brand" to="/"><img src={Brand} alt="brand"/></Link>
             <MobileNav />
             <Navbar />
             <div className="home-content">
