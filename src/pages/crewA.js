@@ -180,4 +180,5 @@ export const CrewD = () => {
 }
 
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {CrewA,CrewB,CrewC,CrewD};
