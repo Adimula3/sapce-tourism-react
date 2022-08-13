@@ -13,8 +13,8 @@ export const CrewA = () => {
 
     return (
         <div className="crewA">
-            <Link className="brand" to="/"><img src={Brand} alt="brand"/></Link>
             <MobileNav />
+            <Link className="brand" to="/"><img src={Brand} alt="brand"/></Link>
             <Navbar />
             <div className="container">
                 <Row>
@@ -56,8 +56,8 @@ export const CrewA = () => {
 export const CrewB = () => {
     return (
         <div className="crewA">
-            <Link className="brand" to="/"><img src={Brand} alt="brand"/></Link>
             <MobileNav />
+            <Link className="brand" to="/"><img src={Brand} alt="brand"/></Link>
             <Navbar />
             <div className="container">
                 <Row>
@@ -99,8 +99,8 @@ export const CrewB = () => {
 export const CrewC = () => {
     return (
         <div className="crewA">
-            <Link className="brand" to="/"><img src={Brand} alt="brand"/></Link>
             <MobileNav />
+            <Link className="brand" to="/"><img src={Brand} alt="brand"/></Link>
             <Navbar />
             <div className="container">
                 <Row>
@@ -143,8 +143,8 @@ export const CrewC = () => {
 export const CrewD = () => {
     return (
         <div className="crewA">
-            <Link className="brand" to="/"><img src={Brand} alt="brand"/></Link>
             <MobileNav />
+            <Link className="brand" to="/"><img src={Brand} alt="brand"/></Link>
             <Navbar />
             <div className="container">
                 <Row>

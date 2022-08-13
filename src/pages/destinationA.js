@@ -11,8 +11,8 @@ import Brand from "../assets/home/img.png";
 export const DestinationA = () => {
     return (
         <div className="destinationA">
-            <Link className="brand" to="/"><img src={Brand} alt="brand"/></Link>
             <MobileNav />
+            <Link className="brand" to="/"><img src={Brand} alt="brand"/></Link>
             <Navbar />
             <div className="container">
                 <Row>
@@ -63,8 +63,8 @@ export const DestinationA = () => {
         export const Mars = () => {
     return (
         <div className="destinationA">
-            <Link className="brand" to="/"><img src={Brand} alt="brand"/></Link>
             <MobileNav />
+            <Link className="brand" to="/"><img src={Brand} alt="brand"/></Link>
             <Navbar />
             <div className="container">
                 <Row>
@@ -115,8 +115,8 @@ export const DestinationA = () => {
 export const Europa = () => {
     return (
         <div className="destinationA">
-            <Link className="brand" to="/"><img src={Brand} alt="brand"/></Link>
             <MobileNav />
+            <Link className="brand" to="/"><img src={Brand} alt="brand"/></Link>
             <Navbar />
             <div className="container">
                 <Row>
@@ -167,8 +167,8 @@ export const Europa = () => {
 export const Titan = () => {
     return (
         <div className="destinationA">
-            <Link className="brand" to="/"><img src={Brand} alt="brand"/></Link>
             <MobileNav />
+            <Link className="brand" to="/"><img src={Brand} alt="brand"/></Link>
             <Navbar />
             <div className="container">
                 <Row>

@@ -8,8 +8,8 @@ import {Link} from "react-router-dom";
 const Home = () => {
     return (
         <div className="home">
-            <Link className="brand" to="/"><img src={Brand} alt="brand"/></Link>
             <MobileNav />
+            <Link className="brand" to="/"><img src={Brand} alt="brand"/></Link>
             <Navbar />
             <div className="home-content">
                 <Row>

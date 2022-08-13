@@ -15,8 +15,8 @@ import Brand from "../assets/home/img.png";
 export const TechnologyA = () => {
     return (
         <div className="technologyA">
-            <Link className="brand" to="/"><img src={Brand} alt="brand"/></Link>
             <MobileNav />
+            <Link className="brand" to="/"><img src={Brand} alt="brand"/></Link>
             <Navbar />
             <div className="container">
                 <Row className="row">
@@ -62,8 +62,8 @@ export const TechnologyA = () => {
 export const TechnologyB = () => {
     return (
         <div className="technologyA">
-            <Link className="brand" to="/"><img src={Brand} alt="brand"/></Link>
             <MobileNav />
+            <Link className="brand" to="/"><img src={Brand} alt="brand"/></Link>
             <Navbar />
             <div className="container">
                 <Row>
@@ -108,8 +108,8 @@ export const TechnologyB = () => {
 export const TechnologyC = () => {
     return (
         <div className="technologyA">
-            <Link className="brand" to="/"><img src={Brand} alt="brand"/></Link>
             <MobileNav />
+            <Link className="brand" to="/"><img src={Brand} alt="brand"/></Link>
             <Navbar />
             <div className="container">
                 <Row>
