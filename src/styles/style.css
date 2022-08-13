@@ -68,7 +68,7 @@ hr{
     z-index: 5;
 }
 .mobile-nav {
-
+    display: none;
 }
 /*.......Mobile-Nav.......*/
 /* Position and sizing of burger button */
