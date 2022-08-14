@@ -41,12 +41,11 @@
     line-height: 19px;
     letter-spacing: 2.7px;
 }
-.down-active {
+.nav-item a.active {
     position: relative;
     padding-bottom: 40px;
 }
-
-.down-active::before{
+.nav-item a.active::before {
     content: "";
     width: 70px;
     height: 3px;
@@ -55,6 +54,7 @@
     top: 100%;
     background: #FFFFFF;;
 }
+
 .brand {
     display: none;
 }
