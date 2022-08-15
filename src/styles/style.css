@@ -412,7 +412,18 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .moon-left img {
     margin-top: 80px;
     margin-left: 70px;
+    animation: rotate 70s infinite;
 }
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
+
 .moon-right {
     margin-top: 180px;
     margin-left: 80px;
